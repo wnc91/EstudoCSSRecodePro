@@ -1,0 +1,37 @@
+.PRINCIPAL {
+	margin: 0 auto;
+	width: 960px;
+	height: 780px;
+	border: 1px solid red;
+}
+
+.CABECALHO {
+	width: 960px;
+	height: 180px; /* ALTURA DO CABEÇALHO */
+	border: 1px solid red;
+}
+
+.MENU {
+	width: 180px;
+	height: 500px; /* ALTURA DO CABEÇALHO */
+	border: 1px solid red;
+	float: left;
+}
+
+.CORPO {
+	width: 760px;
+	height: 500px; /* ALTURA DO CABEÇALHO */
+	border: 1px solid red;
+	float: right;
+}
+
+.RODAPE {
+	width: 960px;
+	height: 94px; /* ALTURA DO CABEÇALHO */
+	border: 1px solid red;
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
