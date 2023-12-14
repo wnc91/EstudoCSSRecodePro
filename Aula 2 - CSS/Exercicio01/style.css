@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+.principal-flex-container {
+	display: block;
+	background-color: purple;
+	height: 628px;
+	padding: 3px;
+	flex-wrap: wrap;
+}
+
+.cabecalhoLilas {
+	display: block;
+	width: 98.5%;
+	background-color: #AC58FA;
+	height: 20%;
+	margin: 10px;
+}
+
+.menuAmarelo {
+	display: flex;
+	background-color: #FFBF00;
+	width: 46%;
+	height: 45%;
+	margin: 10px;
+	float: left;
+}
+
+.conteudoAzul {
+	display: flex;
+	background-color: #58ACFA;
+	width: 50%;
+	height: 73%;
+	margin: 10px;
+	float: right;
+}
+
+.menuVermelho {
+	display: flex;
+	background-color: #FA5858;
+	width: 46%;
+	height: 25%;
+	margin: 10px;
+	float: left;
+}
