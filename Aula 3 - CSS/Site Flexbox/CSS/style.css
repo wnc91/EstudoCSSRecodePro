@@ -59,3 +59,14 @@ body {
 	text-align: center;
 	background: #ddd;
 }
+
+/* Layout responsivo - quando a tela tem menos de 700px de largura,
+   faça as duas colunas empilharem uma em cima da outra, em vez de uma ao
+   lado da outra */
+
+@media screen and (max-width: 700px) {
+	.row,
+	.navbar {
+		flex-direction: column;
+	}
+}
